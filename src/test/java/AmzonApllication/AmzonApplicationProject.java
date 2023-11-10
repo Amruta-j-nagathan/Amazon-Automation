@@ -51,10 +51,10 @@ public class AmzonApplicationProject {
 		Thread.sleep(5000);
 
 		driver.findElement(By.xpath("//div[@class='a-box-inner a-padding-extra-large']/descendant::input[1]"))
-				.sendKeys("9700102308");
+				.sendKeys("9845623451");
 
 		driver.findElement(By.xpath("//div[@class='a-box-inner a-padding-extra-large']/descendant::input[3]"))
-				.sendKeys("Amazon@123");
+				.sendKeys("Amzonapp@123");
 
 		driver.findElement(By.xpath("//div[@class='a-box-inner a-padding-extra-large']/descendant::input[5]")).click();
 
